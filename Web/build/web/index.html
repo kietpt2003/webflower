@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h2>
+            <a href="TestingServlet1">link 1</a>
+            <a href="TestingServlet2?msg=Nhac hay qua&status=Non nao">link 2</a>
+            <a href="error.html">link 3</a>
+            <a href="TestingServlet3">link 4</a>
+        </h2>
+        <form action="RegisterServlet" method="post">
+            Email: <input type="text" name="txtemail" required=""/>*<br>
+            Password: <input type="password" name="txtpassword" required=""/>*<br>
+            Full name: <input type="text" name="txtfullname" required="">*<br/>
+            Gender: <input type="radio" name="sex" value="nam">Male
+                    <input type="radio" name="sex" value="nu">Female<br/>
+            Job: <select name="txtjob" >
+                   <option value="student">Student</option>
+                   <option value="student">Shipper</option>
+                   <option value="student">Gymer</option>
+                 </select>
+            <br/><input type="submit" value="register"/>
+        </form>
+    </body>
+</html>
